@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.exercise1;
 
 public class Passenger {
     public String name;

@@ -1,14 +1,13 @@
-package creationalPatterns;
+package creationalPatterns.exercise1;
 
-public class Bus implements Vehicle{
+public class Plane implements Vehicle {
     @Override
     public void transport(Passenger passenger) {
         System.out.println(passenger.getName());
-
     }
 
     @Override
     public vehicles getName() {
-        return vehicles.BUS;
+        return vehicles.PLANE;
     }
 }

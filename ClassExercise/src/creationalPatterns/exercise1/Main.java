@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.exercise1;
 
 import java.util.ArrayList;
 import java.util.HashSet;

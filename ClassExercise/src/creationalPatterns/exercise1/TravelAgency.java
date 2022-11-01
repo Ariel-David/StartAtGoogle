@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.exercise1;
 
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;

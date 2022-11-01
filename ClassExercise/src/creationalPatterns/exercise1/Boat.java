@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.exercise1;
 
 public class Boat implements Vehicle {
     @Override
