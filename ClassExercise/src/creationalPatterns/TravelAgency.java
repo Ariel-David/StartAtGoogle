@@ -1,35 +1,40 @@
 package creationalPatterns;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TravelAgency {
 
     private static TravelAgency instance;
-    Map<Vehicle, Integer> vehiclesCounterMap;
+    List<vehicles> vehiclesCounterList;
+    Map<Vehicle, Passenger> vehiclesByPassengerMap;
 
 
-    public enum vehicleType {
-        PLANE, BUS, TAXI, BOAT
-    }
-
-    public static TravelAgency getInstance(){
-        if(instance==null){
+    public static TravelAgency getInstance() {
+        if (instance == null) {
             instance = new TravelAgency();
         }
         return instance;
     }
 
-    private TravelAgency(){
-        vehiclesCounterMap = new HashMap<>();
-        vehiclesCounterMap.put(createVehicle(vehicleType.PLANE), 1);
-        vehiclesCounterMap.put(createVehicle(vehicleType.BUS), 4);
-        vehiclesCounterMap.put(createVehicle(vehicleType.TAXI), 8);
-        vehiclesCounterMap.put(createVehicle(vehicleType.BOAT), 3);
+    private TravelAgency() {
+        vehiclesCounterList = new ArrayList<>();
+        vehiclesByPassengerMap = new HashMap<>();
+
+        vehiclesCounterList.add(vehicles.PLANE);
+
+        for (int i = 0; i < 4; i++) {
+            vehiclesCounterList.add(vehicles.BUS);
+        }
+        for (int i = 0; i < 8; i++) {
+            vehiclesCounterList.add(vehicles.TAXI);
+        }
+        for (int i = 0; i < 3; i++) {
+            vehiclesCounterList.add(vehicles.BOAT);
+        }
     }
 
-    public Vehicle createVehicle(vehicleType type) {
+    public Vehicle createVehicle(vehicles type) {
         switch (type) {
             case PLANE:
                 return new Plane();
@@ -45,11 +50,23 @@ public class TravelAgency {
     }
 
     public void assignVehicle(Passenger p) {
-        if(vehiclesCounterMap.values().isEmpty()){
-
+        if (vehiclesCounterList.isEmpty()) {
+            for (Vehicle v : vehiclesByPassengerMap.keySet()) {
+                    v.transport(vehiclesByPassengerMap.get(v));
+            }
+            vehiclesCounterList.clear();
         }
-        else{
-
+        else if (vehiclesCounterList.contains(p.favoriteVehicle)) {
+            Vehicle v = createVehicle(p.favoriteVehicle);
+            vehiclesByPassengerMap.put(v, p);
+            vehiclesCounterList.remove(p.favoriteVehicle);
+        }
+        else {
+            int randomNum = ThreadLocalRandom.current().nextInt(vehiclesCounterList.size());
+            Vehicle v = createVehicle(vehiclesCounterList.get(randomNum));
+            vehiclesByPassengerMap.put(v, p);
+            vehiclesCounterList.remove(v.getName());
         }
     }
+
 }

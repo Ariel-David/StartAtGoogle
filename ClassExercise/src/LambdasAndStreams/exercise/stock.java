@@ -1,5 +1,6 @@
-package startAtGoogle.LambdasAndStreams.exercise;
+package LambdasAndStreams.exercise;
 
+import LambdasAndStreams.exercise.Item;
 import startAtGoogle.CommonMethods.exercies.Name;
 
 import java.time.Duration;

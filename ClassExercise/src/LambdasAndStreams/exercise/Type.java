@@ -1,4 +1,4 @@
-package startAtGoogle.LambdasAndStreams.exercise;
+package LambdasAndStreams.exercise;
 
 import java.util.concurrent.ThreadLocalRandom;
 

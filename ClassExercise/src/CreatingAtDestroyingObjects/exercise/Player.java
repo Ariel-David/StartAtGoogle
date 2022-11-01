@@ -1,4 +1,4 @@
-package startAtGoogle.CreatingAtDestroyingObjects.exercise;
+package CreatingAtDestroyingObjects.exercise;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package startAtGoogle.LambdasAndStreams.exercise;
+package LambdasAndStreams.exercise;
 
 import javax.swing.plaf.PanelUI;
 import java.security.PublicKey;
