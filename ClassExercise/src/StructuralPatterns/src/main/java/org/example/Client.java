@@ -1,4 +1,6 @@
-package org.example;
+package StructuralPatterns.src.main.java.org.example;
+
+import StructuralPatterns.src.main.java.org.example.HTTPFacade;
 
 import java.io.IOException;
 

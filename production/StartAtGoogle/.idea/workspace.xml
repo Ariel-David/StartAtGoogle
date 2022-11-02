@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f93a87a5-22c2-43c8-b457-12c20900b3d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Appliance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Asset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="f93a87a5-22c2-43c8-b457-12c20900b3d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,12 +31,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/ariel/IdeaProjects",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
@@ -59,13 +58,13 @@
       <recent name="creationalPatterns.exercise1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.creationalPatterns.exercise1.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="startAtGoogle.CommonMethods.exercies.Main" />
+  <component name="RunManager" selected="Application.BehavioralPatterns.Main">
+    <configuration name="BehavioralPatterns.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Main" />
       <module name="Class1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="startAtGoogle.CommonMethods.exercies.*" />
+          <option name="PATTERN" value="BehavioralPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,20 +140,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.BehavioralPatterns.Main" />
       <item itemvalue="Application.creationalPatterns.exercise1.Main" />
       <item itemvalue="Application.startAtGoogle.LambdasAndStreams.exercise.Main" />
       <item itemvalue="Application.startAtGoogle.Exceptions.exercise.Main" />
       <item itemvalue="Application.startAtGoogle.Methods.exercise.Main" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Shell Script.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BehavioralPatterns.Main" />
         <item itemvalue="Application.creationalPatterns.exercise1.Main" />
         <item itemvalue="Application.startAtGoogle.LambdasAndStreams.exercise.Main" />
         <item itemvalue="Application.startAtGoogle.Exceptions.exercise.Main" />
         <item itemvalue="Application.startAtGoogle.Methods.exercise.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
