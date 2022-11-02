@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f93a87a5-22c2-43c8-b457-12c20900b3d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Asset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GIWrfD1s1bifL9Ivvq72cOwqVX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ariel/IdeaProjects",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ariel\IdeaProjects\Class1\src\startAtGoogle\classesAndInterfaces\exercise2\Farm" />
+      <recent name="C:\Users\ariel\IdeaProjects\Class1\src\Start_Google" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="startAtGoogle.CommonMethods.exercies" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="creationalPatterns.exercise1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.creationalPatterns.exercise1.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="startAtGoogle.CommonMethods.exercies.Main" />
+      <module name="Class1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="startAtGoogle.CommonMethods.exercies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="creationalPatterns.exercise1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creationalPatterns.exercise1.Main" />
+      <module name="Class1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creationalPatterns.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="startAtGoogle.Exceptions.exercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="startAtGoogle.Exceptions.exercise.Main" />
+      <module name="Class1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="startAtGoogle.Exceptions.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="startAtGoogle.LambdasAndStreams.exercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="startAtGoogle.LambdasAndStreams.exercise.Main" />
+      <module name="Class1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="startAtGoogle.LambdasAndStreams.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="startAtGoogle.Methods.exercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="startAtGoogle.Methods.exercise.Main" />
+      <module name="Class1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="startAtGoogle.Methods.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="ShConfigurationType" nameIsGenerated="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.creationalPatterns.exercise1.Main" />
+      <item itemvalue="Application.startAtGoogle.LambdasAndStreams.exercise.Main" />
+      <item itemvalue="Application.startAtGoogle.Exceptions.exercise.Main" />
+      <item itemvalue="Application.startAtGoogle.Methods.exercise.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Shell Script.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.creationalPatterns.exercise1.Main" />
+        <item itemvalue="Application.startAtGoogle.LambdasAndStreams.exercise.Main" />
+        <item itemvalue="Application.startAtGoogle.Exceptions.exercise.Main" />
+        <item itemvalue="Application.startAtGoogle.Methods.exercise.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f93a87a5-22c2-43c8-b457-12c20900b3d0" name="Changes" comment="" />
+      <created>1666076783969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666076783969</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/src/startAtGoogle/AuthenticationServiceProject" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/startAtGoogle/classesAndInterfaces/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/startAtGoogle/classesAndInterfaces/exercise2/Client.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="res" />
+        <watch expression="s.itemList.get(1)" />
+        <watch expression="check" />
+        <watch expression="((HashMap.Node)((HashMap)vehiclesByPassengerMap).entrySet().toArray()[0]).getKey()" custom="java.util.HashMap.Node,java.util.HashMap" />
+        <watch expression="((HashMap.Node)((HashMap)vehiclesByPassengerMap).entrySet().toArray()[0]).getKey()" custom="java.util.HashMap.Node,java.util.HashMap" />
+        <watch expression="passengerList.get(2)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Class1$startAtGoogle_LambdasAndStreams_exercise_Main.ic" NAME="startAtGoogle.LambdasAndStreams.exercise.Main Coverage Results" MODIFIED="1666795040109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>startAtGoogle.LambdasAndStreams.exercise.*</FILTER>
+    </SUITE>
+  </component>
+</project>
