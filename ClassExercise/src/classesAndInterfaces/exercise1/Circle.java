@@ -1,4 +1,4 @@
-package startAtGoogle.classesAndInterfaces;
+package classesAndInterfaces.exercise1;
 
 public class Circle implements Shape{
     double radius;

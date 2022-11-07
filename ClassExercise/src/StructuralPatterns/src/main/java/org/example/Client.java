@@ -1,4 +1,4 @@
-package org.example;
+package StructuralPatterns.src.main.java.org.example;
 
 import java.io.IOException;
 
@@ -6,19 +6,19 @@ public class Client {
 
     public static void main(String[] args) {
         try {
-            HTTPFacade.sendGET();
+            org.example.HTTPFacade.sendGET();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         System.out.println("GET DONE");
         try {
-            HTTPFacade.sendPOST();
+            org.example.HTTPFacade.sendPOST();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         System.out.println("POST DONE");
         try {
-            HTTPFacade.RequestPUT();
+            org.example.HTTPFacade.RequestPUT();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -26,7 +26,7 @@ public class Client {
         System.out.println("PUT DONE");
 
         try {
-            HTTPFacade.RequestDELETE();
+            org.example.HTTPFacade.RequestDELETE();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -34,7 +34,7 @@ public class Client {
         System.out.println("DELETE DONE");
 
         try {
-            HTTPFacade.sendPATCH();
+            org.example.HTTPFacade.sendPATCH();
 
         } catch (IOException e) {
             throw new RuntimeException(e);

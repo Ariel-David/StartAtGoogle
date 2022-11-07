@@ -1,4 +1,4 @@
-package startAtGoogle.classesAndInterfaces.exercise2.Farm;
+package classesAndInterfaces.exercise2.Farm;
 
 public class Goat extends AnimalExtension implements Animal {
     public Goat() {

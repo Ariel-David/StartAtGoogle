@@ -1,4 +1,6 @@
-package startAtGoogle.classesAndInterfaces.exercise2.Farm;
+package classesAndInterfaces.exercise2.Farm;
+
+import classesAndInterfaces.exercise2.Farm.Farm;
 
 import java.util.Random;
 

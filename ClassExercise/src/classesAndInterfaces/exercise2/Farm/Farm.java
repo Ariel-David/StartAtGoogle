@@ -1,4 +1,4 @@
-package startAtGoogle.classesAndInterfaces.exercise2.Farm;
+package classesAndInterfaces.exercise2.Farm;
 
 import java.util.ArrayList;
 import java.util.List;

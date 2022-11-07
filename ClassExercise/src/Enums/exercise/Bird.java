@@ -1,4 +1,4 @@
-package startAtGoogle.Enums.exercise;
+package Enums.exercise;
 
 public enum Bird {
     BARN_OWL("Tyto alba") {

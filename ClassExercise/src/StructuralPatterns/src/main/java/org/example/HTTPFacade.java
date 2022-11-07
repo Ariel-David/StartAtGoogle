@@ -1,4 +1,4 @@
-package org.example;
+package StructuralPatterns.src.main.java.org.example;
 
 import org.apache.hc.client5.http.auth.UsernamePasswordCredentials;
 import org.apache.hc.client5.http.classic.methods.*;
@@ -27,7 +27,7 @@ public class HTTPFacade {
     private static final String POST_URL = "https://reqres.in/api/users";
 
 
-    static void sendPOST() throws IOException {
+    static void sendPOST() throws IOException {3
         HttpPost httpPost = new HttpPost(POST_URL);
         CloseableHttpClient client = HttpClients.createDefault();
         httpPost.setHeader("content-type", "application/json");
