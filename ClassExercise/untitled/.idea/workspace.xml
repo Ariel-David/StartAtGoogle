@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1a8d469-5b17-4265-9141-d20bbaa9617b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/src/main/java/org/example/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/src/main/java/org/example/Asset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/src/main/java/org/example/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/src/main/java/org/example/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/src/main/java/org/example/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BehavioralPatterns/src/main/java/org/example/exportToJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StructuralPatterns2/production/IdeaProjects/.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StructuralPatterns2/production/IdeaProjects/Class1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StructuralPatterns2/production/IdeaProjects/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_2_beta1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_2_beta2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_2_beta2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/Class1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/Exceptions/exercise/app.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/Files/Female_Names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/Files/Male_Names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/HTML_Basic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/HTML_Basic/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/LambdasAndStreams/exercise/Item.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/classesAndInterfaces/exercise1/Shape.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/classesAndInterfaces/exercise2/Farm.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/classesAndInterfaces/exercise2/Farm/AnimalsGenerator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StructuralPatterns/production/IdeaProjects/src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AuthenticationServiceProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AuthenticationServiceProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AuthenticationServiceProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AuthenticationServiceProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/exercise/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/exercise/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../creationalPatterns/exercise2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../creationalPatterns/exercise2/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HItKnoN384moUWUUQ0TGdwQ63K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ariel/StartAtGoogle/Debugging"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Debugging" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Debugging" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1a8d469-5b17-4265-9141-d20bbaa9617b" name="Changes" comment="" />
+      <created>1667984364251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667984364251</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
