@@ -1,4 +1,4 @@
-package startAtGoogle.Generics.exercise;
+package Generics.exercise;
 
 import java.util.Arrays;
 import java.util.List;

@@ -5,6 +5,7 @@ import Controllers.UserController;
 
 import java.util.Scanner;
 
+
 public class Client {
     private static String token;
     private static String email;
@@ -20,7 +21,8 @@ public class Client {
             {
                 System.out.printf("%d: %s\n",++i,act);
             }
-            action= UserActions.valueOf(scanner.nextLine().trim());
+            String line  = scanner.nextLine().trim();
+            action= UserActions.values()[Integer.valueOf(line)-1];
             switch (action) {
                 case REGISTER:
                     handelRegister(scanner);

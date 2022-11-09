@@ -1,4 +1,4 @@
-package startAtGoogle.classesAndInterfaces;
+package classesAndInterfaces;
 
 public class City {
     private final String name;

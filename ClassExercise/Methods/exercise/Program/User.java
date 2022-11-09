@@ -1,4 +1,4 @@
-package startAtGoogle.Methods.exercise.Program;
+package Methods.exercise.Program;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,10 +1,10 @@
-package startAtGoogle.CommonMethods.exercies;
+package CommonMethods.exercies;
 
 import java.util.Objects;
 
 public class Contact implements Comparable<Contact> {
     Name name;
-    PhoneNumber phoneNumber;
+   PhoneNumber phoneNumber;
 
     public Contact(){
         name = new Name();

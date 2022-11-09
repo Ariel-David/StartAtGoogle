@@ -1,6 +1,6 @@
-package startAtGoogle.classesAndInterfaces.exercise2;
+package classesAndInterfaces.exercise2;
 
-import startAtGoogle.classesAndInterfaces.exercise2.Farm.*;
+import classesAndInterfaces.exercise2.Farm.*;
 
 import java.util.ArrayList;
 import java.util.List;

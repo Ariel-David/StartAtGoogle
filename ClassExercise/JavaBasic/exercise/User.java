@@ -1,4 +1,4 @@
-package startAtGoogle.JavaBasic.exercise;
+package JavaBasic.exercise;
 
 public class User {
     public String Name;

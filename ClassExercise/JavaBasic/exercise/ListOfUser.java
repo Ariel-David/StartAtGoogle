@@ -1,4 +1,4 @@
-package startAtGoogle.JavaBasic.exercise;
+package JavaBasic.exercise;
 
 import java.util.ArrayList;
 import java.util.HashMap;

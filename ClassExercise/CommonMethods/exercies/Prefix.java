@@ -1,4 +1,4 @@
-package startAtGoogle.CommonMethods.exercies;
+package CommonMethods.exercies;
 
 import java.util.Arrays;
 import java.util.Collections;

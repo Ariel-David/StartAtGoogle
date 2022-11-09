@@ -1,4 +1,4 @@
-package startAtGoogle.classesAndInterfaces;
+package classesAndInterfaces.exercise1;
 
 public class Square implements Shape {
     double length;

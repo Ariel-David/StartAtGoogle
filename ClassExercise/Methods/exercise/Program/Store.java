@@ -1,4 +1,4 @@
-package startAtGoogle.Methods.exercise.Program;
+package Methods.exercise.Program;
 
 import java.time.LocalDate;
 import java.util.*;

@@ -1,7 +1,4 @@
 package classesAndInterfaces.exercise2.Farm;
-
-import startAtGoogle.classesAndInterfaces.exercise2.Farm.Animal;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

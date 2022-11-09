@@ -1,7 +1,8 @@
-package startAtGoogle.Methods.exercise;
+package Methods.exercise;
 
-import startAtGoogle.Methods.exercise.Program.Store;
-import startAtGoogle.Methods.exercise.Program.User;
+
+import Methods.exercise.Program.Store;
+import Methods.exercise.Program.User;
 
 import java.util.*;
 

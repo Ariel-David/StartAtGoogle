@@ -1,11 +1,9 @@
-package startAtGoogle.Methods.exercise.Program;
-
-import startAtGoogle.CommonMethods.exercies.Generator;
+package Methods.exercise.Program;
 
 public class Name {
     public String FirstName;
     public String LastName;
-    Generator g = new Generator();
+    generator g = new generator();
 
     public Name() {
         FirstName = g.getFirstName();
