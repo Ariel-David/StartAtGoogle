@@ -1,0 +1,29 @@
+2022-11-09 15:40:32,623 ERROR   org.example.DataSource.Repo -  this email is not valid!
+2022-11-09 16:05:07,062 ERROR   main.example.DataSource.Repo -  this email is not valid!
+2022-11-09 16:05:07,064 FATAL   main.example.Controllers.AuthController - login failed!
+2022-11-09 16:09:09,184 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:09:09,187 ERROR   main.example.Controllers.AuthController - login failed!
+2022-11-09 16:09:09,215 ERROR   main.example.Controllers.UserController - can't change email!
+2022-11-09 16:13:01,673 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:13:01,675 ERROR   main.example.Controllers.Validation -  this email is not valid!
+2022-11-09 16:13:01,676 FATAL   main.example.Controllers.AuthController - login failed!
+2022-11-09 16:13:14,351 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:13:14,351 ERROR   main.example.Controllers.Validation -  this password is not valid!
+2022-11-09 16:13:14,352 FATAL   main.example.Controllers.UserController - User cannot be created!
+2022-11-09 16:13:31,237 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:13:31,237 DEBUG   main.example.Controllers.Validation - password is ok
+2022-11-09 16:15:28,191 DEBUG   main.example.Controllers.Validation - password is ok
+2022-11-09 16:15:28,195 ERROR   main.example.Controllers.AuthController - login failed!
+2022-11-09 16:15:45,190 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:15:45,192 DEBUG   main.example.Controllers.Validation - password is ok
+2022-11-09 16:15:45,222 FATAL   main.example.Controllers.UserController - User cannot be created!
+2022-11-09 16:15:55,250 ERROR   main.example.Controllers.AuthController - login failed!
+2022-11-09 16:16:16,306 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:16:16,308 DEBUG   main.example.Controllers.Validation - password is ok
+2022-11-09 16:16:16,335 FATAL   main.example.Controllers.UserController - User cannot be created!
+2022-11-09 16:17:51,521 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:17:51,525 DEBUG   main.example.Controllers.Validation - password is ok
+2022-11-09 16:17:51,552 FATAL   main.example.Controllers.UserController - User cannot be created!
+2022-11-09 16:17:51,553 TRACE   main.example.Client.Client - this is a trace
+2022-11-09 16:19:18,880 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:19:18,883 DEBUG   main.example.Controllers.Validation - password is ok
