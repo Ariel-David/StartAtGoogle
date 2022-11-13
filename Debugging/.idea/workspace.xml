@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70719429-c870-49c4-9316-226efec091ac" name="Changes" comment="&quot;add some files&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Debugger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/src/log.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationServiceProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthenticationServiceProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassExercise/StructuralPatterns2/production/IdeaProjects/.idea/IdeaProjects.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassExercise/StructuralPatterns2/production/IdeaProjects/Class1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassExercise/StructuralPatterns2/production/IdeaProjects/src/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Log.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Debugger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Debugger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Debugger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Debugger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/src/main/example/Controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/src/main/example/Controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/src/main/example/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/src/main/example/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/src/main/example/DataSource/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/src/main/example/DataSource/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/Controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/Controllers/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/Controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/Controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/DataSource/Repo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/DataSource/Repo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/DataSource/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggingSummaryExercise/target/classes/main/example/DataSource/Repo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ariel/StartAtGoogle/Debugging&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ariel/StartAtGoogle/SpringApp"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />

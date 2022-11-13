@@ -65,6 +65,7 @@ public class UserController {
         catch (IllegalArgumentException | NullPointerException exp)
         {
             log.error("can't change email!");
+            log.trace("trace");
             ControllersUtil.printErrorToCmd("Failed to change email.",exp.getMessage());
         }
     }

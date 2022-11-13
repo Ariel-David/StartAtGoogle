@@ -6,10 +6,25 @@ import java.util.logging.Logger;
 
 public class Main {
     public static void main(String[] args) {
-        Debugger.log("start");
-        long n = 1234567988;
-        func(n);
 
+            long r, sum = 0, temp;
+            long n = 12345678987654321L;
+
+            Debugger.log("start here");
+
+            temp = n;
+            while (n > 0) {
+                r = n % 10;
+                sum = (sum * 10) + r;
+                n = n / 10;
+            }
+            if (temp == sum) {
+                System.out.println("palindrome number ");
+            } else {
+                System.out.println("not palindrome");
+            }
+            Debugger.log("The next check is: stackTraces1()");
+            Debugger.log("Finish debugging program");
     }
     public static void func(long n) {
         long r = n;

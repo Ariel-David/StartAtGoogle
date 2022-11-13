@@ -37,7 +37,7 @@ public class AuthController {
     public void checkToken(String email, String Token) {
         if(Token==null || Token.isEmpty())
         {
-            log.error("login failed!");
+            log.fatal("login failed!");
             ControllersUtil.printErrorToCmd("Login failed.","The token is null or empty.\n You must login first to get a valid token.");
             return;
         }

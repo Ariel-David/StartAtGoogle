@@ -27,3 +27,11 @@
 2022-11-09 16:17:51,553 TRACE   main.example.Client.Client - this is a trace
 2022-11-09 16:19:18,880 DEBUG   main.example.Controllers.Validation - email is ok
 2022-11-09 16:19:18,883 DEBUG   main.example.Controllers.Validation - password is ok
+2022-11-09 16:28:15,065 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:28:15,069 DEBUG   main.example.Controllers.Validation - password is ok
+2022-11-09 16:28:15,106 FATAL   main.example.Controllers.UserController - User cannot be created!
+2022-11-09 16:28:15,106 TRACE   main.example.Client.Client - this is a trace
+2022-11-09 16:28:27,351 DEBUG   main.example.Controllers.Validation - email is ok
+2022-11-09 16:28:27,351 ERROR   main.example.Controllers.Validation -  this password is not valid!
+2022-11-09 16:28:27,352 FATAL   main.example.Controllers.AuthController - login failed!
+2022-11-09 16:28:27,352 TRACE   main.example.Client.Client - this is a trace

@@ -1,37 +1,35 @@
-package main.example.DataSource;
-
+package app.repositories;
+import app.entity.User;
 import com.google.gson.Gson;
-import main.example.be.User;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Repository;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
+@Repository
+public class userRepositry {
 
-
-public class Repo {
-    private static final String PATH = "src/main/java/org/example/DataSource/jsons/";
+    private static final String PATH = "src/main/java/DataSource/jsons/";
     private static final Gson gson = new Gson();
-    private final Map<String, User> usersByEmails;
-    private static Repo instance;
+    private static final Map<String, User> usersByEmails = new HashMap<>();
 
-    private static Logger log = LogManager.getLogger(Repo.class.getName());
-    private Repo() {
-        usersByEmails = new HashMap<>();
-    }
-
-    public static Repo getInstance() {
-        if (instance == null) {
-            instance = new Repo();
+    public userRepositry() {
+        for (int i = 0; i < 10; i++) {
+            User user = User.newRandomUser();
+            usersByEmails.put(user.getEmail(),user);
         }
-        return instance;
     }
 
-    public void addNewUser(User user) {
+    public static List<User> getUsers() {
+        return usersByEmails.values().stream().collect(Collectors.toList());
+    }
+
+    public static void addNewUser(User user) {
         int userId = user.getId();
         FileWriter writer;
         File userJsonFile = new File(PATH + "User" + userId);
@@ -41,8 +39,6 @@ public class Repo {
             Files.write(Paths.get(PATH + "User" + userId), userJson.getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             System.out.println("new user json file creation/writing failed");
-            log.trace("this is a trace");
-            log.error("fails to create json");
             e.printStackTrace();
             throw new RuntimeException(e);
         }
@@ -52,21 +48,18 @@ public class Repo {
         File userJsonFile = new File(PATH + "User" + id);
         FileReader fileReader;
         if (!userJsonFile.exists()) {
-            log.warn("user dosn't exist!");
             System.out.println("User " + id + "does not exist");
             return null;
         }
         try {
             fileReader = new FileReader(userJsonFile);
-            log.trace("this is a trace");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);  //will never occur
         }
-        log.trace("this is a trace");
         return gson.fromJson(fileReader, User.class);
     }
 
-    public Optional<User> getUserByEmail(String email) {
+    public static Optional<User> getUserByEmail(String email) {
         FileReader fileReader;
         File dir = new File(PATH);
         File[] foundFiles = dir.listFiles(new FilenameFilter() {
@@ -83,7 +76,6 @@ public class Repo {
             }
             User tempUser = gson.fromJson(fileReader, User.class);
             usersByEmails.put(tempUser.getEmail(), tempUser);
-            log.trace("this is a trace");
         }
         if(usersByEmails.containsKey(email)) return Optional.of(usersByEmails.get(email));
         return Optional.empty();
@@ -96,7 +88,7 @@ public class Repo {
         addNewUser(tempUser);
     }
 
-    public void updateUsersPassword(String email, String newPassword)   {
+    public static void updateUsersPassword(String email, String newPassword)   {
         User tempUser = throwUserNotFoundException(getUserByEmail(email),email);
         tempUser.setPassword(newPassword);
         addNewUser(tempUser);
@@ -108,7 +100,7 @@ public class Repo {
         tempUser.setEmail(newEmail);
         addNewUser(tempUser);
     }
-    private User throwUserNotFoundException(Optional<User> user,String email)
+    private static User throwUserNotFoundException(Optional<User> user, String email)
     {
         if(user.isPresent())return user.get();
         throw new NullPointerException("No user with the following email address: "+ email+ " was found in the system.");
