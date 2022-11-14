@@ -2,33 +2,31 @@ package app.controller;
 
 import app.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
-
     @Autowired
     private AuthService authService;
    public final Validation validation;
 
-    private AuthController(AuthService authService) {
-        this.authService = authService;
+    public AuthController(AuthService authService) {
+        authService = new AuthService();
         validation = new Validation();
     }
-
-    public String tryLogin(String email, String password) {
+    @RequestMapping(value ="/login",method = RequestMethod.GET)
+    public String login(@RequestParam String email, @RequestParam String password) {
         try {
             validation.isValidEmail(email);
-            validation.isValidPassword(password);
+            //validation.isValidPassword(password);
             String token = authService.login(email, password);
             System.out.println("Login succeeded.");
             return token;
         }
         catch (IllegalArgumentException exp)
         {
-            printErrorToCmd("Login failed.",exp.getMessage());
+            System.out.println("Login failed."+exp.getMessage());
             return null;
         }
     }
